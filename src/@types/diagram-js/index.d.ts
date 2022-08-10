@@ -516,6 +516,7 @@ declare module 'diagram-js/lib/core/Canvas' {
     removeMarker(element: string | Base, marker: string): void;
     hasMarker(element: string | Base, marker: string): void;
     toggleMarker(element: string | Base, marker: string): void;
+    setRootElement(element: string | Base, override: boolean): void;
     getSize(): { width: number; height: null };
     getAbsoluteBBox(
       element: any
